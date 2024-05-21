@@ -24,3 +24,15 @@ print(f"Reshaped 2D matrix: {new_matrix}")
 print(f"Element-wise multiplied matrix: {mult_matrix}")
 print(f"Sum of all elements in element-wise multiplied matrix: {sum_mult_matrix}")
 
+new_data = np.array([[3, 7], [6, 2], [1, 8]])
+
+# Reshape matrix into 1D array
+new_data = matrix.reshape(-1)
+
+# Calculate mean and standard deviation of 1D array
+new_mean = np.mean(arr)
+new_std = np.std(arr)
+
+print(new_mean)
+print(new_std)
+
